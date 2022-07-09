@@ -814,7 +814,10 @@ footer::before {
   left: 0%;
   width: 100%;
   height: 200px;
-  background: url("../img/") no-repeat 50% 50%/cover;
+  background: url("../img/Footer.png") no-repeat 50% 50%/cover;
+}
+footer .footer-blocks {
+  position: relative;
 }
 
 .footer-blocks-title {
@@ -845,6 +848,24 @@ footer::before {
   color: black;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+
+.footer-soclonk-block {
+  position: relative;
+  width: 100%;
+}
+.footer-soclonk-block a {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-soclonk-block a img {
+  position: relative;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*________________________________________________________________________________________________________________________*/
